@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genaral Questions"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="1. Which city has the name of a cartoon character?"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/supermanRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SuperMan"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/batmanRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Batman"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="2. In Which languages did the Irish writer Samuel Beckett write?"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="9dp">
+
+            <CheckBox
+                android:id="@+id/engCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English"
+                android:textSize="18sp"/>
+
+            <CheckBox
+                android:id="@+id/freCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="French"
+                android:layout_marginLeft="5dp"
+                android:textSize="18sp"/>
+
+            <CheckBox
+                android:id="@+id/spanCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spanish"
+                android:layout_marginLeft="5dp"
+                android:textSize="18sp"/>
+
+            <CheckBox
+                android:id="@+id/hauCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hausa"
+                android:layout_marginLeft="5dp"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="3. Which device do we use to look at the stars?"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/answer1EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="7dp"
+            android:hint="Your Answer" />
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="4. What is the capital of Turkey"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/ankaraRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ankara"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/clotRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Clothing"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="5. Which two seas are joined by the sues canal?"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="9dp">
+
+            <CheckBox
+                android:id="@+id/medCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mediterranean Sea"
+                android:textSize="18sp"/>
+
+            <CheckBox
+                android:id="@+id/redCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Red Sea"
+                android:textSize="18sp"/>
+
+            <CheckBox
+                android:id="@+id/lakeCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lake Chad"
+                android:textSize="18sp"/>
+
+            <CheckBox
+                android:id="@+id/blueCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deep Blue Sea"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="6. In Which Year did Maradona score with his hand?"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/handEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingTop="7dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:hint="Your Answer" />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:textSize="20sp"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>
