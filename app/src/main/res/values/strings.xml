@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Quiz Appp</string>
+    <string name="general">General Questions</string>
+    <string name="SuperMan">SuperMan</string>
+    <string name="Batman">Batman</string>
+    <string name="question3">3. Which Turkish city has the name of a cartoon character?</string>
+    <string name="question2">2. In Which languages did the Irish writer Samuel Beckett write?</string>
+    <string name="engCheck">English</string>
+    <string name="freCheck">French</string>
+    <string name="spanCheck">Spanish</string>
+    <string name="hauCheck">Hausa</string>
+    <string name="question1">1. Which device do we use to look at the stars?</string>
+    <string name="question4">4. What is the capital of Turkey?</string>
+    <string name="ankaraRadio">Ankara</string>
+    <string name="clotRadio">Clothing</string>
+    <string name="question5">5. Which two seas are joined by the sues canal?</string>
+    <string name="medCheck">Mediterranean Sea</string>
+    <string name="redCheck">Red Sea</string>
+    <string name="lakeCheck">Lake Chad</string>
+    <string name="blueCheck">Deep Blue Sea</string>
+    <string name="question6">6. In Which Year did Maradona score with his hand?</string>
+    <string name="nextBtn">Submit</string>
 </resources>

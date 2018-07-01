@@ -13,103 +13,22 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Genaral Questions"
+            android:text="@string/general"
             android:gravity="center"
-            android:textColor="#000"
-            android:textSize="25sp" />
+            android:textColor="#FFE70408"
+            android:textSize="27sp"
+            android:textAllCaps="true"/>
 
         <TextView
             android:id="@+id/question1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="5dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
-            android:text="1. Which city has the name of a cartoon character?"
-            android:textColor="#000"
-            android:textSize="25sp" />
-
-        <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="9dp"
-            android:orientation="horizontal">
-
-            <RadioButton
-                android:id="@+id/supermanRadio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="SuperMan"
-                android:textSize="20sp" />
-
-            <RadioButton
-                android:id="@+id/batmanRadio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:text="Batman"
-                android:textSize="20sp" />
-        </RadioGroup>
-
-        <TextView
-            android:id="@+id/question2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:paddingTop="10dp"
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
-            android:text="2. In Which languages did the Irish writer Samuel Beckett write?"
+            android:text="@string/question1"
             android:textColor="#000"
-            android:textSize="25sp" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="9dp">
-
-            <CheckBox
-                android:id="@+id/engCheck"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="English"
-                android:textSize="18sp"/>
-
-            <CheckBox
-                android:id="@+id/freCheck"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="French"
-                android:layout_marginLeft="5dp"
-                android:textSize="18sp"/>
-
-            <CheckBox
-                android:id="@+id/spanCheck"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Spanish"
-                android:layout_marginLeft="5dp"
-                android:textSize="18sp"/>
-
-            <CheckBox
-                android:id="@+id/hauCheck"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hausa"
-                android:layout_marginLeft="5dp"
-                android:textSize="18sp"/>
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/question3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="10dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
-            android:text="3. Which device do we use to look at the stars?"
-            android:textColor="#000"
-            android:textSize="20sp" />
+            android:textSize="22sp" />
 
         <EditText
             android:id="@+id/answer1EditText"
@@ -117,7 +36,94 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:layout_marginTop="7dp"
-            android:hint="Your Answer" />
+            android:layout_marginLeft="10dp"
+            android:hint="Your Answer"
+            android:textColor="#000"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/question2"
+            android:textColor="#000"
+            android:textSize="23sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="10dp">
+
+            <CheckBox
+                android:id="@+id/engCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/engCheck"
+                android:textSize="16sp"/>
+
+            <CheckBox
+                android:id="@+id/freCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/freCheck"
+                android:layout_marginLeft="5dp"
+                android:textSize="16sp"/>
+
+            <CheckBox
+                android:id="@+id/spanCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spanCheck"
+                android:layout_marginLeft="5dp"
+                android:textSize="16sp"/>
+
+            <CheckBox
+                android:id="@+id/hauCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hauCheck"
+                android:layout_marginLeft="5dp"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:text="@string/question3"
+            android:textSize="23sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="9dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <RadioButton
+                android:id="@+id/supermanRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SuperMan"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/batmanRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="@string/Batman"
+                android:textSize="16sp" />
+        </RadioGroup>
 
         <TextView
             android:id="@+id/question4"
@@ -126,21 +132,22 @@
             android:paddingTop="5dp"
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
-            android:text="4. What is the capital of Turkey"
+            android:text="@string/question4"
             android:textColor="#000"
-            android:textSize="20sp" />
+            android:textSize="23sp" />
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="9dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
 
             <RadioButton
                 android:id="@+id/ankaraRadio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ankara"
+                android:text="@string/ankaraRadio"
                 android:textSize="16sp" />
 
             <RadioButton
@@ -148,7 +155,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:text="Clothing"
+                android:text="@string/clotRadio"
                 android:textSize="16sp" />
         </RadioGroup>
 
@@ -159,43 +166,56 @@
             android:paddingTop="10dp"
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
-            android:text="5. Which two seas are joined by the sues canal?"
+            android:text="@string/question5"
             android:textColor="#000"
-            android:textSize="20sp" />
+            android:textSize="23sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="9dp">
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="10dp">
 
             <CheckBox
                 android:id="@+id/medCheck"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mediterranean Sea"
+                android:text="@string/medCheck"
                 android:textSize="18sp"/>
 
             <CheckBox
                 android:id="@+id/redCheck"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Red Sea"
+                android:text="@string/redCheck"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp">
+
+            <CheckBox
+                android:id="@+id/blueCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/blueCheck"
                 android:textSize="18sp"/>
 
             <CheckBox
                 android:id="@+id/lakeCheck"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lake Chad"
+                android:text="@string/lakeCheck"
+                android:layout_marginLeft="35dp"
                 android:textSize="18sp"/>
 
-            <CheckBox
-                android:id="@+id/blueCheck"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Deep Blue Sea"
-                android:textSize="18sp"/>
         </LinearLayout>
 
         <TextView
@@ -205,28 +225,30 @@
             android:paddingTop="10dp"
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
-            android:text="6. In Which Year did Maradona score with his hand?"
+            android:text="@string/question6"
             android:textColor="#000"
-            android:textSize="25sp" />
+            android:textSize="23sp" />
 
         <EditText
             android:id="@+id/handEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:paddingTop="7dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
-            android:hint="Your Answer" />
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Your Answer"
+            android:textColor="#000"
+            android:textSize="20sp"/>
 
         <Button
-            android:id="@+id/nextBtn"
+            android:id="@+id/submitBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
-            android:text="Submit"
-            android:textSize="20sp"
-            android:textAllCaps="false" />
+            android:text="@string/nextBtn"
+            android:textSize="23sp"
+            android:onClick="submit"
+            android:textColor="#eee"/>
     </LinearLayout>
 </ScrollView>
